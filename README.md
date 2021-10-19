@@ -10,6 +10,9 @@ Features:
 
 # Scripts:
 
+Para usar um de meus scripts, basta, no jogo, criar um novo link nas opção de Barra de Acesso Rápido e adicionar o seguinte link:
+$.getScript("https://leopoliveira.github.io/[repository]/[filename].js")
+
 <hr />
 
 <h2>Porcentagem de População Disponível</h2>
