@@ -11,7 +11,7 @@ Features:
 # Scripts:
 
 Para usar um de meus scripts, basta, no jogo, criar um novo link nas opção de Barra de Acesso Rápido e adicionar o seguinte link:
-$.getScript("https://leopoliveira.github.io/[repository]/[filename].js");
+javascript:$.getScript("https://leopoliveira.github.io/TW-Scripts/percentPopDisp.js");
 
 <hr />
 
