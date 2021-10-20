@@ -31,7 +31,10 @@ function popDisp() {
     let areaGrupos = document.querySelector(".vis_item");
     let resultTable = document.createElement("table");
     let html = "";
-    const percentAlert = prompt("Insira o percentual mínimo de alerta: ")
+    //const percentAlert = prompt("Insira o percentual máximo para marcar (somente números): ");
+    const percentAlert = prompt("Type maximum percent to mark (only numbers): ");
+    
+    
 
     //Guarda os valores importantes encontrados das coordenadas das aldeias e da população em arrays:
 
@@ -93,11 +96,11 @@ function popDisp() {
 
     //Estrutura inicial da tabela, contendo descrição e título:
     html += `
-    <caption>População Disponível por Aldeia</caption>
+    <caption>Available Population per Village</caption>
     <thead>
         <tr>
-            <th>Aldeia</th>
-            <th>População Disponível</th>
+            <th>Village</th>
+            <th>Available Population</th>
         </tr>
     </thead>`;
 
