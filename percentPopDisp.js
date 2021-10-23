@@ -1,15 +1,3 @@
-// ==UserScript==
-// @name         Verificador de Populção x Disponibilidade
-// @namespace    https://github.com/leopoliveira
-// @version      1.0
-// @description  Get all population used by every village and then calculates % fully is the farm
-// @author       Leonardo Oliveira
-// @include      https://*screen=overview_villages&mode=prod
-// @run-at       document-start
-// @icon         https://www.google.com/s2/favicons?domain=tribalwars.com.br
-// @grant        none
-// ==/UserScript==
-
 setTimeout(popDisp, 3000);
 //addEventListener("load", popDisp);
 
